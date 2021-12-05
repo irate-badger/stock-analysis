@@ -1,0 +1,6 @@
+flask
+pandas-datareader
+
+pre-commit
+black
+pytest
