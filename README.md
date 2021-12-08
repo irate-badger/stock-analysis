@@ -23,3 +23,11 @@ curl http://127.0.0.1:5000/ | jq .
 or
 curl http://127.0.0.1:5000/?ticker=GOOG | jq .
 ```
+
+To get a rolling result for a 10 day period from 1-Jan-2021 to 8-Dec-2021 request the folling end point:
+
+```sh
+curl http://127.0.0.1:5000/rolling | jq .
+```
+
+This also accept the alternative ticker for looking at different values
