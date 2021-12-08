@@ -4,3 +4,7 @@ pandas-datareader
 pre-commit
 black
 pytest
+grappa
+
+wheel
+flask-testing
