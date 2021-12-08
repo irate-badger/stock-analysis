@@ -16,4 +16,3 @@ repos:
           language: system
           entry: pytest -v --showlocals
           types: [python]
-          pass_filesnames: false

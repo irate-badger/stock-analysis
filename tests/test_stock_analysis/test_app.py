@@ -44,7 +44,7 @@ def client():
 
 
 @patch("stock_analysis.app.web")
-def test_welcome(mocked_datareader, client):
+def test_root(mocked_datareader, client):
     def data_reader(symbol, source, start, end):
         return dummy_dataframe()
 
